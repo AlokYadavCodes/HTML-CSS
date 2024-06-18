@@ -411,3 +411,23 @@ footer ul{
     align-items: center;
 }
 
+.courses-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#course-search-bar{
+    height: 35px;
+    width: 400px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(13, 167, 214);
+    background-color: #f3f3f3;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.hide{
+    display: none;
+}
