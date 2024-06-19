@@ -24,6 +24,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 header ul li a{
@@ -430,4 +431,28 @@ footer ul{
 
 .hide{
     display: none;
+}
+
+.main-search-area{
+    width: 300px;
+    min-height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 65px;
+    right: 250px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.search-item{
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-item:hover{
+    background-color: #e9e9e9;
 }
